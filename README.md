@@ -1,5 +1,5 @@
 # MMD dashboard
-An interactive dashboard for computing the Maximum Mean Discrepancy (MMD) [1] in various scenarios. Uses [shinydashboard](https://rstudio.github.io/shinydashboard/) and [EasyMMD](https://github.com/AnthonyEbert/EasyMMD).
+An interactive dashboard where you can compute the Maximum Mean Discrepancy (MMD) [1] between two samples in various scenarios. Uses [shinydashboard](https://rstudio.github.io/shinydashboard/) and [EasyMMD](https://github.com/AnthonyEbert/EasyMMD).
 
 
 ## References
