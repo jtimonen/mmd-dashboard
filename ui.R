@@ -1,3 +1,6 @@
+require(EasyMMD)
+require(shinydashboard)
+
 ## Sidebar 
 sidebar <- dashboardSidebar(
   sidebarMenu(
@@ -24,12 +27,12 @@ body <- dashboardBody(
                 sliderInput("slider_s11", "Std 1:", 0.0, 3.0, 1.0, step = h),
                 sliderInput("slider_s12", "Std 2:", 0.0, 3.0, 1.0, step = h),
                 
-                sliderInput("slider_n1", "n_1:", 1, 1000, 200),
+                sliderInput("slider_n1", "n_1:", 1, 600, 200),
               ),
               box(
                 width = 3, 
                 title = "Distribution q",
-                sliderInput("slider_n2", "n_2:", 1, 1000, 200),
+                sliderInput("slider_n2", "n_2:", 1, 600, 200),
                 selectInput(
                   "dist", "Distribution", list("Gaussian", "C-shape")
                 )

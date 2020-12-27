@@ -1,3 +1,6 @@
+require(EasyMMD)
+require(shinydashboard)
+
 sample_gaussian <- function(n, m, s) {
   x1 <- stats::rnorm(n, m[1], s[1])
   x2 <- stats::rnorm(n, m[2], s[2])

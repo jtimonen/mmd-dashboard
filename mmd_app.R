@@ -1,5 +1,5 @@
-library(EasyMMD)
-library(shinydashboard)
+require(EasyMMD)
+require(shinydashboard)
 source('ui.R')
 source('server.R')
 
