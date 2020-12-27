@@ -1,8 +1,7 @@
 ## Sidebar 
 sidebar <- dashboardSidebar(
   sidebarMenu(
-    menuItem("Dashboard", tabName = "dashboard", icon = icon("laptop-code")),
-    menuItem("MMD", tabName = "mmd", icon = icon("subscript"))
+    menuItem("Dashboard", tabName = "dashboard", icon = icon("laptop-code"))
   )
 )
 
@@ -45,11 +44,6 @@ body <- dashboardBody(
                 numericInput("seed", "RNG seed", 123, step = 1)
               )
             )
-    ),
-    
-    # Second tab content
-    tabItem(tabName = "mmd",
-            h2("Empty tab")
     )
   )
 )
